@@ -15,4 +15,4 @@ app.use(function(req, res, next) {
 
 app.use('/products',router)
 
-app.listen(8080)
+app.listen( process.env.PORT || 5000)
